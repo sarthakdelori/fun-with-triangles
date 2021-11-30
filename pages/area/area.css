@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background-color: #002b80;
+}
+
+body{
+  text-align: center;
+}
+
+/* nav css starts */
+
+nav{
+  width: 100%;
+  background-color:#4d88ff;
+  color:white;
+  padding: 0.25rem 1rem;
+}
+
+.menu{
+  list-style:none;
+  text-align: right;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0rem 0.8rem;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+
+nav ul li{
+  display: inline;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.2rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+nav ul li.item:hover{
+  background-color: white;
+  color: #4d88ff;
+  border-radius: 10px;
+}
+
+nav ul li.item:hover a{
+  background-color: white;
+  color: #4d88ff;
+}
+
+/* nav css ends */
+
+.logo{
+  text-decoration: none;
+  color: white;
+}
+
+.hf, .app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body{
+  color: black;
+  font-size: x-large;
+  background-color: white;
+}
+
+#heading {
+  /* font-size: 2rem; */
+  margin: 3rem auto 1rem auto;
+}
+
+#sub-heading{
+  margin: 1rem auto 2rem auto;
+}
+
+
+.labels {
+  display: block;
+  margin: 0.5rem 0 0.5rem 0;
+  /* font-size: 1.2rem; */
+}
+
+.inputs {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem 0.4rem;
+  width: 20rem;
+  height: 1.5rem;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+.inputs:focus {
+  border: 1.5px solid black;
+}
+
+#formula-list{
+  color: black;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem 0.4rem;
+  width: 20rem;
+  /* height: 1.5rem; */
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+#formula-list:focus{
+  border: 1.5px solid black;
+}
+
+.submit {
+  display: block;
+  background-color: #4d88ff;
+  color: white;
+  margin: 2rem auto;
+  padding: 0 0.5rem;
+  height: 2rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.submit:focus{
+  border: 1.5px solid black;
+}
+
+#display {
+  /* font-size: 1.5rem; */
+  text-align: center;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #4d88ff;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0 0 0; 
+}
+
+.sm-icons{
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  display: inline;
+  margin: 1rem;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  transition: all 0.4s;
+}
+
+.sm-icons:hover{
+  transform: scale(1.5);
+}
+
+.sm-links{
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer ends */
